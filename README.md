@@ -37,4 +37,4 @@ Please visit our [wiki](https://github.com/ucberkeley-vip/atom_mapping/wiki) for
 If you run into any issues building or using this package, please feel free to post an [issue](https://github.com/ucberkeley-vip/atom_mapping/issues) and one of us will get back to you as quickly as possible.
 
 ## Citation
-If you find AtomMap useful in your own work, we request that you cite our [paper](http://people.eecs.berkeley.edu/~dfk/atom_map_final.pdf).
+If you find AtomMap useful in your own work, we request that you cite our [paper](http://people.eecs.berkeley.edu/\~dfk/Atom_Mapping.pdf).
