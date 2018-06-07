@@ -1,4 +1,7 @@
 # Atom Mapping
+
+[![Build Status](https://api.travis-ci.org/ICRA2017/atom_mapping.svg?branch=reproducible)](https://travis-ci.org/ICRA2017/atom_mapping)
+
 Atom Mapping is a ROS package that implements a novel form of 3D mapping, intended for use in real-time robot navigation and planning. In essence, an Atom Map is a generalized occupancy grid that exists in continuous space, and is not restricted to a grid-like structure. Moreover, the general concept is amenable to metrics other than traditional metrics of occupancy, for example it can store the signed distance to an obstacle.
 
 Atom Mapping is developed by **Erik Nelson** and **David Fridovich-Keil**. Erik is currently with [nuro.ai](https://nuro.ai), and David is with the [Hybrid Systems Lab](http://hybrid.eecs.berkeley.edu) and the [Berkeley Artificial Intelligence Research lab](http://bair.berkeley.edu).
