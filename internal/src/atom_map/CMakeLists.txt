@@ -47,7 +47,7 @@ link_directories(
 )
 
 file(GLOB_RECURSE ${PROJECT_NAME}_srcs ${CMAKE_SOURCE_DIR}/${PROJECT_NAME}/src/*.cc)
-add_library(${PROJECT_NAME} src/atom_map/*.cc)
+add_library(${PROJECT_NAME} ${${PROJECT_NAME}_srcs})
 target_link_libraries(${PROJECT_NAME}
   ${catkin_LIBRARIES}
   ${PCL_LIBRARIES}
