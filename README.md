@@ -1,6 +1,6 @@
 # Atom Mapping
 
-[![Build Status](https://api.travis-ci.org/ICRA2017/atom_mapping.svg?branch=reproducible)](https://travis-ci.org/ICRA2017/atom_mapping)[![Docker Build Status](https://img.shields.io/docker/build/ICRA2017/atom_mapping.svg)](https://hub.docker.com/r/ICRA2017/atom_mapping/) [![Docker Automated Build](https://img.shields.io/docker/automated/ICRA2017/atom_mapping.svg)](https://hub.docker.com/r/ICRA2017/atom_mapping/)
+[![Build Status](https://api.travis-ci.org/ICRA2017/atom_mapping.svg?branch=reproducible)](https://travis-ci.org/ICRA2017/atom_mapping)[![Docker Build Status](https://img.shields.io/docker/build/icra2017/atom_mapping.svg)](https://hub.docker.com/r/icra2017/atom_mapping/) [![Docker Automated Build](https://img.shields.io/docker/automated/icra2017/atom_mapping.svg)](https://hub.docker.com/r/icra2017/atom_mapping/)
 
 Atom Mapping is a ROS package that implements a novel form of 3D mapping, intended for use in real-time robot navigation and planning. In essence, an Atom Map is a generalized occupancy grid that exists in continuous space, and is not restricted to a grid-like structure. Moreover, the general concept is amenable to metrics other than traditional metrics of occupancy, for example it can store the signed distance to an obstacle.
 
