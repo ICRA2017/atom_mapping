@@ -23,3 +23,12 @@ RUN source /ros_entrypoint.sh \
 	&& cd $CATKIN_WS/src/atom_mapping/internal \
 	&& catkin_make -DCMAKE_BUILD_TYPE=Release
 
+RUN source /ros_entrypoint.sh \
+	&& git clone https://bitbucket.org/gtborg/gtsam.git \
+	&& cd gtsam && mkdir build && cd build \
+	&& cmake .. && make install
+	
+RUN source /ros_entrypoint.sh \
+	&& git clone https://github.com/erik-nelson/blam.git \
+	&& cd blam && ./update
+
