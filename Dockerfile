@@ -32,3 +32,7 @@ RUN source /ros_entrypoint.sh \
 	&& git clone https://github.com/erik-nelson/blam.git \
 	&& cd blam && ./update
 
+RUN apt-get update && apt-get install -y \
+	ros-indigo-rviz \
+	&& rm -rf /var/lib/apt/lists	
+
