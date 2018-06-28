@@ -41,3 +41,15 @@ If you run into any issues building or using this package, please feel free to p
 
 ## Citation
 If you find AtomMap useful in your own work, we request that you cite our [paper](http://people.eecs.berkeley.edu/\~dfk/Atom_Mapping.pdf).
+
+## Run in Docker
+
+Tested in Ubuntu 14.04.5, Docker version 18.03.1-ce, nvidia-docker 2.0, GeForce GTX-960.
+
+Allow X-server connections in host.
+
+```
+$ docker run -it --rm --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --runtime=nvidia  icra2017/bayesian_object_tracking bash
+root@655599d8c67e:/# source /opt/ros/indigo/setup.bash
+...
+```
