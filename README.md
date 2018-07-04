@@ -53,5 +53,7 @@ $ docker run -it --rm --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" \
 --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
 --runtime=nvidia  icra2017/atom_mapping
 root@655599d8c67e:/# source /opt/ros/indigo/setup.bash
+root@655599d8c67e:/# roscore &
+root@655599d8c67e:/# rviz &
 ```
 TODO: download bag file, set paths, launch.
